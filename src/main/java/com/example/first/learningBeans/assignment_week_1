@@ -1,0 +1,24 @@
+1. Make a list of all the annotations we have learned so far.
+============================================================================================================
+=> @PostConstruct @PreDestroy, @Autowired, @Component, @Service, @ConditionalOnProperty, @SpringBootApplication,
+@SpringBootConfiguration, @EnableAutoConfiguration, etc.
+
+
+============================================================================================================
+2. Make a list of scenarios where you think Spring Boot can be very useful over the Spring framework.
+============================================================================================================
+=> a. When want quick setup and we want prebuild default setting for all the external packages we need like the:
+web, lombok, servlet, etc.
+
+
+============================================================================================================
+
+3. Alice and her bakery:
+    i. Create a class called CakeBaker, that is dependent on two other classes called Frosting and Syrup. This
+    class will have a function called bakeCake()
+    ii. Create two interfaces of type Frosting and Syrup with a function called getFrostingType and getSyrupType type
+    respectively.
+    iii. Create two implementations of these two interfaces (so that 4 total classes) for chocolate and
+     strawberry flavors.
+     iv. Use dependency injection to inject the frosting and syrup dependencies into CakeBaker and also to call
+     the bake cake function of the CakeBaker class.
